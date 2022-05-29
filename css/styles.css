@@ -1,21 +1,67 @@
-body{
-    margin: 0px;
-    background-color: black;
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: auto;
 }
+li, a, button
+{
+font-family: 'Montserrat', serif;
+font-weight: 400;
+font-size: 16px;
+color: bisque;
+text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+body{ 
+    margin: 0px;
+    background-color: rgb(33, 40, 81);
+}
+
 
 h1{
     margin-left: 25%;
     margin-right: 25%;
+    font-size: 75px;
+    font-family: 'Permanent Marker', serif;
+    color:bisque
     
 }
 p{
-    margin-left: 25%;
+    margin-left: 40%;
     margin-right: 25%;
-    
+    font-family: 'Tiro Devanagari Sanskrit', serif;
+    color: bisque;
+
+}
+.nav_links{
+    list-style-type: none;
+}
+.nav_links li{
+    display: inline-block;
+    padding: 0, 20px;
 
 }
 
-div{
-
-    background-color: bisque;
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+}
+.nav_links li a:hover{
+    color: #ce9ba3;
+}
+button{
+    padding: 9px, 25px;
+    background-color: #ce9ba3;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+button :hover{
+    background-color: #f9f3f4;
 }
