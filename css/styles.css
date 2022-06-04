@@ -19,39 +19,63 @@ header{
     padding: 30px 10%;
 }
 body{ 
-    margin: 0px;
+    margin: 2%;
     background-color: rgb(33, 40, 81);
+    border: 50px;
+    
+}
+
+.logo{
+    font-family: 'Permanent Marker';
 }
 
 
 h1{
     margin-left: 25%;
     margin-right: 25%;
-    font-size: 75px;
+    font-size: 500%;
     font-family: 'Permanent Marker', serif;
     color:bisque
     
 }
+h2{
+    font-size: 300%;
+}
+h3{
+    font-size: 150%;
+}
+h2, h3
+{
+    margin-left: 15%;
+    margin-bottom: 5;
+    font-family: 'Tiro Devanagari Sanskrit';
+    color: #ce9ba3;
+    
+
+}
 p{
     margin-left: 40%;
     margin-right: 25%;
-    font-family: 'Tiro Devanagari Sanskrit', serif;
+    margin-bottom: 10%;
+    font-family: 'Montserrat', serif;
     color: bisque;
+    
 
 }
+
 .nav_links{
     list-style-type: none;
 }
-.nav_links li{
+.nav_links, li{
     display: inline-block;
     padding: 0, 20px;
 
 }
 
-.nav_links li a{
+.nav_links, li, a{
     transition: all 0.3s ease 0s;
 }
-.nav_links li a:hover{
+.nav_links, li, a:hover{
     color: #ce9ba3;
 }
 button{
@@ -62,6 +86,30 @@ button{
     cursor: pointer;
     transition: all 0.3s ease 0s;
 }
-button :hover{
-    background-color: #f9f3f4;
+.cta :hover
+{
+    background-color:rgb(33, 40, 81) ;
+}
+.footer-link{
+
+    position: fixed;
+    margin-left: 10px;
+    bottom: 10px;
+    width: 100%;
+        
+        
+;
+}
+
+.footer-link :hover{
+    color: #ce9ba3;
+}
+hr{
+    color: #ce9ba3;
+}
+.intro{
+    margin-left: 30%;
+    color: #ce9ba3;
+    font-family: 'Permanent Marker';
+    font-size: 30px;
 }
