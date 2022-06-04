@@ -1,5 +1,6 @@
 
-*{
+*
+{
     box-sizing: border-box;
     margin: 0;
     padding: auto;
@@ -12,33 +13,38 @@ font-size: 16px;
 color: bisque;
 text-decoration: none;
 }
-header{
+header
+{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 30px 10%;
 }
-body{ 
+body
+{ 
     margin: 2%;
     background-color: rgb(33, 40, 81);
     border: 50px;
     
 }
 
-.logo{
+.logo
+{
     font-family: 'Permanent Marker';
 }
 
 
-h1{
+h1
+{
     margin-left: 25%;
     margin-right: 25%;
-    font-size: 500%;
+    font-size: 400%;
     font-family: 'Permanent Marker', serif;
     color:bisque
     
 }
-h2{
+h2
+{
     font-size: 300%;
 }
 h3{
@@ -46,20 +52,23 @@ h3{
 }
 h2, h3
 {
-    margin-left: 15%;
+   
     margin-bottom: 5;
     font-family: 'Tiro Devanagari Sanskrit';
     color: #ce9ba3;
     
 
 }
-.skillH{
-    margin-left: 30%;
+.skillH
+{
+    margin-left: 20%;
 }
-.contact-meH{
-    margin-left: 60% ;
+.contact-meH
+{
+    margin-left: 70% ;
 }
-p{
+p
+{
     margin-left: 40%;
     margin-right: 25%;
     margin-bottom: 10%;
@@ -69,22 +78,27 @@ p{
 
 }
 
-.nav_links{
+.nav_links
+{
     list-style-type: none;
 }
-.nav_links, li{
+.nav_links, li
+{
     display: inline-block;
     padding: 0, 20px;
 
 }
 
-.nav_links, li, a{
+.nav_links, li, a
+{
     transition: all 0.3s ease 0s;
 }
-.nav_links, li, a:hover{
+.nav_links, li, a:hover
+{
     color: #ce9ba3;
 }
-button{
+button
+{
     padding: 9px, 25px;
     background-color: #ce9ba3;
     border: none;
@@ -96,7 +110,8 @@ button{
 {
     background-color:rgb(33, 40, 81) ;
 }
-.footer-link{
+.footer-link
+{
 
     position: fixed;
     margin-left: 10px;
@@ -107,18 +122,48 @@ button{
 ;
 }
 
-.footer-link :hover{
+.footer-link :hover
+{
     color: #ce9ba3;
 }
-hr{
+hr
+{
     color: #ce9ba3;
 }
-.intro{
+.intro
+{
     margin-left: 30%;
     color: #ce9ba3;
     font-family: 'Permanent Marker';
     font-size: 30px;
 }
-.contactstuff{
-    margin-left: 60%;
+.Constant
+{
+    margin-left: 20%;
+    margin-right: 50%;
+}
+.Intang
+{
+    margin-left: 50%;
+    margin-right: 20%;
+}
+.p1
+{
+margin-left: 0%;
+margin-right: 60%;
+}
+.p2
+{
+margin-left: 20%;
+margin-right: 50%;
+}
+.p3
+{
+    margin-left: 50%;
+    margin-right: 20%;
+}
+.p4
+{
+    margin-left: 70%;
+    margin-right: 5%;
 }
