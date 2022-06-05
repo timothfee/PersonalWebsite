@@ -44,6 +44,7 @@ h1
     font-size: 400%;
     font-family: 'Shrikhand', serif;
     color:whitesmoke;
+    display: inline-block;
     
 }
 .myname:hover
@@ -53,9 +54,11 @@ h1
 h2
 {
     font-size: 300%;
+    display: inline-block;
 }
 h3{
     font-size: 150%;
+    display: inline-block;
 }
 h2, h3
 {
