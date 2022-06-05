@@ -10,7 +10,7 @@ li, a, button
 font-family: 'Montserrat', serif;
 font-weight: 400;
 font-size: 16px;
-color: bisque;
+color: rgb(240, 240, 240);
 text-decoration: none;
 }
 header
@@ -23,7 +23,7 @@ header
 body
 { 
     margin: 2%;
-    background-color: rgb(33, 40, 81);
+    background-color: rgb(29, 29, 29);
     border: 50px;
     
 }
@@ -32,16 +32,23 @@ body
 {
     font-family: 'Permanent Marker';
 }
-
+.logo:hover
+{
+    color: #f22140;
+}
 
 h1
 {
     margin-left: 25%;
     margin-right: 25%;
     font-size: 400%;
-    font-family: 'Permanent Marker', serif;
-    color:bisque
+    font-family: 'Shrikhand', serif;
+    color:whitesmoke;
     
+}
+.myname:hover
+{
+    color: #f22140;
 }
 h2
 {
@@ -55,7 +62,7 @@ h2, h3
    
     margin-bottom: 5;
     font-family: 'Tiro Devanagari Sanskrit';
-    color: #ce9ba3;
+    color: #f22140;
     
 
 }
@@ -63,9 +70,27 @@ h2, h3
 {
     margin-left: 20%;
 }
+.skillH:hover{
+    color: whitesmoke;
+}
 .contact-meH
 {
     margin-left: 70% ;
+}
+.contact-meH:hover{
+    color: whitesmoke;
+}
+.hello:hover{
+    color: whitesmoke;
+}
+.intro:hover
+{
+    color: whitesmoke;
+}
+hr
+{
+    
+    size: 10px;
 }
 p
 {
@@ -73,7 +98,8 @@ p
     margin-right: 25%;
     margin-bottom: 20%;
     font-family: 'Montserrat', serif;
-    color: bisque;
+    color: whitesmoke;
+    
     
     
 
@@ -96,12 +122,12 @@ p
 }
 .nav_links, li, a:hover
 {
-    color: #ce9ba3;
+    color: #f22140;
 }
 button
 {
     padding: 9px, 25px;
-    background-color: #ce9ba3;
+    background-color: #f22140;
     border: none;
     border-radius: 50px;
     cursor: pointer;
@@ -109,7 +135,9 @@ button
 }
 .cta :hover
 {
-    background-color:rgb(33, 40, 81) ;
+    background-color: whitesmoke ;
+    color: #f22140;
+
 }
 .footer-link
 {
@@ -125,16 +153,16 @@ button
 
 .footer-link :hover
 {
-    color: #ce9ba3;
+    color: #f22140;
 }
 hr
 {
-    color: #ce9ba3;
+    color: #f22140;
 }
 .intro
 {
     margin-left: 30%;
-    color: #ce9ba3;
+    color: #f22140;
     font-family: 'Permanent Marker';
     font-size: 30px;
 }
@@ -143,10 +171,18 @@ hr
     margin-left: 20%;
     margin-right: 50%;
 }
+.Constant:hover
+{
+    color: whitesmoke;
+}
 .Intang
 {
     margin-left: 50%;
     margin-right: 20%;
+}
+.Intang:hover
+{
+    color: whitesmoke;
 }
 .p1
 {
