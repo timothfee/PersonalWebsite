@@ -31,6 +31,7 @@ body
 .logo
 {
     font-family: 'Permanent Marker';
+    transition: 0.3s;
 }
 .logo:hover
 {
@@ -46,6 +47,10 @@ h1
     color:whitesmoke;
     display: inline-block;
     
+}
+.myname
+{
+    transition: 0.3s;
 }
 .myname:hover
 {
@@ -72,6 +77,7 @@ h2, h3
 .skillH
 {
     margin-left: 20%;
+    transition: 0.3s;
 }
 .skillH:hover{
     color: whitesmoke;
@@ -79,12 +85,21 @@ h2, h3
 .contact-meH
 {
     margin-left: 70% ;
+    transition: 0.3s;
 }
 .contact-meH:hover{
     color: whitesmoke;
 }
+.hello
+{
+    transition: 0.3s;
+}
 .hello:hover{
     color: whitesmoke;
+}
+.intro 
+{
+    transition: 0.3s;
 }
 .intro:hover
 {
@@ -149,6 +164,7 @@ button
     margin-left: 10px;
     bottom: 10px;
     width: 100%;
+    transition: 0.3s;
         
         
 ;
@@ -168,11 +184,13 @@ hr
     color: #f22140;
     font-family: 'Permanent Marker';
     font-size: 30px;
+    transition: 0.3s;
 }
 .Constant
 {
     margin-left: 20%;
     margin-right: 50%;
+    transition: 0.3s;
 }
 .Constant:hover
 {
@@ -182,6 +200,7 @@ hr
 {
     margin-left: 50%;
     margin-right: 20%;
+    transition: 0.3s;
 }
 .Intang:hover
 {
